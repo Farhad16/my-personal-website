@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(63, 60, 60);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 35px;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+section{
+    height: 700px;
+}
+.introduction{
+    background-image: url('images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#intro-description{
+    margin-top: 150px;
+    padding: 2%;
+    margin-left: 15%;
+}
+
+.half-width{
+    float: left;
+    width: 35%;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+.half-width img{
+    width: 100%;  
+}
+ 
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, 
+    #cf5a7c, rgb(226, 7, 91));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biography{
+    background-image: url('images/biography-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bio-description{
+    margin-top: 12%;
+    padding-left: 2%;
+}
+
+#bio-pic{
+    margin-left: 10%;
+    width: 45%;
+}
+
+.latest-work{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.latest-width{
+    float: left;
+    width: 25%;
+    margin-left: 3%;
+}
+
+.latest-width img{
+    width: 100%;
+}
+h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.my-work-images{
+    margin-left: 10%;
+}
+.my-latest-work{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+
+.footer{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    text-align: center;
+}
+
+.position-fix{
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+h4{
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+h6{
+    margin: 0px;
+    margin-top: 5px;
+    color: rgb(77, 74, 74);
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+h5{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+}
+
+.emailaddress{
+    background-image: linear-gradient(45deg, 
+    #e77294, rgb(230, 53, 121));
+    color: white;
+    width: 550px;
+    margin: auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.emailfont{
+    padding-top: 0px;
+    font-weight: 500; 
+    font-size: 20px; 
+    color: rgb(230, 220, 220);
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
