@@ -4,13 +4,14 @@ body{
     color: rgb(63, 60, 60);
 }
 
-h1{
+introduction h1{
     font-size: 50px;
     font-weight: 700px;
     margin-top: 0px;
     padding: 0px;
     margin-bottom: 30px;
 }
+
 
 h2{
     font-size: 35px;
@@ -162,4 +163,77 @@ footer p{
     text-align: center;
     font-size: 12px;
     margin-bottom: 60px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px rgb(177, 179, 178);
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.experience{
+    background-image: linear-gradient(45deg, 
+    #ffffff, #F5F8FD);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.pink-highlight{
+    color: #EC4C7A;
+}
+
+.half-width-exp{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.gradient-color-python{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(185, 218, 226), rgb(70, 23, 197));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-color-javascript{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(226, 185, 205), rgb(197, 23, 104));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-color-django{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(226, 185, 205), rgb(168, 15, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-color-angular{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(209, 148, 148), rgb(168, 15, 15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-color-java{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(207, 136, 209), rgb(138, 13, 138));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-color-es6{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(147, 212, 228), rgb(9, 124, 139));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
